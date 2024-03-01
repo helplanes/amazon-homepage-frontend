@@ -145,3 +145,28 @@
 
 /** PANEL **/
 /** Box-1 Styling **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-p {
+    display: inline;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.panel-names{
+    width: 90% ;
+}
+/** PANEL DONE**/
+
+/** HERO SECTION **/
+.hero-section{
+    background-image: url(/Materials/hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+}
